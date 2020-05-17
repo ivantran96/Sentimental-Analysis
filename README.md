@@ -12,8 +12,9 @@ pip install -r requirements.txt
 - **Might need to do** `python3 -m venv venv` **instead**
 - More about virtual environments [here](https://www.youtube.com/watch?v=Kg1Yvry_Ydk&t=367s)
 
-## Generate CSV File
-Tolkenizes and lemmatizes the transcript while filtering out stop words
+## TranscriptCleaner.py
+- Tolkenizes and lemmatizes the transcript while filtering out stop words
+- Imports the list into a new CSV file
 `python TranscriptCleaner.py`
 - **Make sure you are in the virtual environment that you created (venv)**
 
