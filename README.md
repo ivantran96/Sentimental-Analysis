@@ -2,8 +2,8 @@
 DataRes Project
 
 ## Download Dependencies
-`python -m venv venv`
-`source venv/bin/activate`
+`python -m venv venv`\
+`source venv/bin/activate`\
 `pip install -r requirements.txt`
 
 - I would recommend creating the virtual environment in a directory (folder) that is specific for the project
@@ -17,9 +17,9 @@ Tolkenizes and lemmatizes the transcript while filtering out stop words
 
 ## Importing Data from CSV 
 This imports the data from a csv file as a list \
-`from csv import reader`
-`with open(____) as file:`
-  `read_file = reader(file)`
+`from csv import reader`\
+`with open(____) as file:`\
+  `read_file = reader(file)`\
   `list_file = list(read_file)`
   
 ## Notes
