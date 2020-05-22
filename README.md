@@ -30,6 +30,14 @@ with open(____) as file:
  - The reason behind `data = list_file[0]` is that `list_file` is a list with another list inside (nested list)
     - The list inside `list_file` (`list_file[0]`) contains the separated words (tokens)
   
+## Frequency Distribution with NLTK
+This creates a frequency distrubution of unique words in `data`
+```
+from nltk.probability improt FreqDist
+data_freqdist = FreqDist(data)
+data_freqdist
+```
+  
 ## Notes
 - When opening files, surround the file name with "..."
   - i.e. "file.txt"
