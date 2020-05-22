@@ -47,8 +47,7 @@ def output_csv(transcript_clean, new_file):
     import csv
     with open(new_file, "w", newline="") as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
-        for word in transcript_clean:
-            wr.writerow([word])
+        wr.writerow(transcript_clean)
     return 0
     
     
